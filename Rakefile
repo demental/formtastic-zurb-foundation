@@ -14,13 +14,13 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "formtastic-bootstrap"
-  gem.homepage = "http://github.com/mjbellantoni/formtastic-bootstrap"
+  gem.name = "formtastic-zurb-foundation"
+  gem.homepage = "http://github.com/aliang/formtastic-zurb-foundation"
   gem.license = "MIT"
-  gem.summary = %Q{Formtastic form builder to generate Twitter Bootstrap-friendly markup.}
+  gem.summary = %Q{Formtastic form builder to generate Zurb Foundation-friendly markup.}
   gem.description = gem.summary
-  gem.email = "mjbellantoni@yahoo.com"
-  gem.authors = ["Matthew Bellantoni"]
+  gem.email = "ayliang@gmail.com"
+  gem.authors = ["Alvin Liang", "Matthew Bellantoni"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -43,7 +43,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "formtastic-bootstrap #{version}"
+  rdoc.title = "formtastic-zurb-foundation #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
