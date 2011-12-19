@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class PasswordInput < Formtastic::Inputs::PasswordInput
       include Base

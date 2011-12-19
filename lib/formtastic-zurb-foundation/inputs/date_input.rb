@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class DateInput < Formtastic::Inputs::DateInput
       include Base

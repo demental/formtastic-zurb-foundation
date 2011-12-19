@@ -1,7 +1,7 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Helpers
     module InputsHelper
-      include FormtasticBootstrap::Helpers::FieldsetWrapper
+      include FormtasticZurbFoundation::Helpers::FieldsetWrapper
 
         def inputs(*args, &block)
           wrap_it = @already_in_an_inputs_block ? true : false

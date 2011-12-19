@@ -1,5 +1,5 @@
 # TODO See if this can be refactored to make use of some of the Choices code.
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class BooleanInput < Formtastic::Inputs::BooleanInput
       include Base

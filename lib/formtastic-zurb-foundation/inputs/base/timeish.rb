@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     module Base
       module Timeish

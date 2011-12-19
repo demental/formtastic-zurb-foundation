@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   
   class FormBuilder < Formtastic::FormBuilder
 
@@ -29,9 +29,9 @@ module FormtasticBootstrap
       raise
     end
 
-    include FormtasticBootstrap::Helpers::InputHelper
-    include FormtasticBootstrap::Helpers::InputsHelper
-    include FormtasticBootstrap::Helpers::ButtonsHelper
+    include FormtasticZurbFoundation::Helpers::InputHelper
+    include FormtasticZurbFoundation::Helpers::InputsHelper
+    include FormtasticZurbFoundation::Helpers::ButtonsHelper
 
   end
 

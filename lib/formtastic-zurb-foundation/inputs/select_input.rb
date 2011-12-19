@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class SelectInput < Formtastic::Inputs::SelectInput
       include Base

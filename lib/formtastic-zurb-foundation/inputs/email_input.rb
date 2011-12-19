@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class EmailInput < Formtastic::Inputs::EmailInput
       include Base

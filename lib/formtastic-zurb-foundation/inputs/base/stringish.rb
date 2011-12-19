@@ -1,6 +1,6 @@
 # Alas, I need to duplicate code from Formtastic::Inputs::Base::Stringish because
 # there's no way to re-import that module.
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     module Base
       module Stringish

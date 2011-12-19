@@ -1,13 +1,13 @@
-require "formtastic-bootstrap/inputs/base/choices"
-require "formtastic-bootstrap/inputs/base/errors"
-require "formtastic-bootstrap/inputs/base/hints"
-require "formtastic-bootstrap/inputs/base/html"
-require "formtastic-bootstrap/inputs/base/labelling"
-require "formtastic-bootstrap/inputs/base/stringish"
-require "formtastic-bootstrap/inputs/base/timeish"
-require "formtastic-bootstrap/inputs/base/wrapping"
+require "formtastic-zurb-foundation/inputs/base/choices"
+require "formtastic-zurb-foundation/inputs/base/errors"
+require "formtastic-zurb-foundation/inputs/base/hints"
+require "formtastic-zurb-foundation/inputs/base/html"
+require "formtastic-zurb-foundation/inputs/base/labelling"
+require "formtastic-zurb-foundation/inputs/base/stringish"
+require "formtastic-zurb-foundation/inputs/base/timeish"
+require "formtastic-zurb-foundation/inputs/base/wrapping"
 
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     module Base
 

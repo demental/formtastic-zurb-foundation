@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class CheckBoxesInput < Formtastic::Inputs::CheckBoxesInput
       include Base

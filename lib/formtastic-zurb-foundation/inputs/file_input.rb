@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class FileInput < Formtastic::Inputs::FileInput
       include Base

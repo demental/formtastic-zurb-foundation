@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class RadioInput < Formtastic::Inputs::RadioInput
       include Base

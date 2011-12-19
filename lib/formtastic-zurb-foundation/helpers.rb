@@ -1,9 +1,9 @@
-require "formtastic-bootstrap/helpers/buttons_helper"
-require "formtastic-bootstrap/helpers/fieldset_wrapper"
-require "formtastic-bootstrap/helpers/input_helper"
-require "formtastic-bootstrap/helpers/inputs_helper"
+require "formtastic-zurb-foundation/helpers/buttons_helper"
+require "formtastic-zurb-foundation/helpers/fieldset_wrapper"
+require "formtastic-zurb-foundation/helpers/input_helper"
+require "formtastic-zurb-foundation/helpers/inputs_helper"
 
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Helpers
     # autoload :ErrorsHelper, 'formtastic/helpers/errors_helper'
     # autoload :FieldsetWrapper, 'formtastic/helpers/fieldset_wrapper'

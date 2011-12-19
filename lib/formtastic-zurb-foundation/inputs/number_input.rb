@@ -1,4 +1,4 @@
-module FormtasticBootstrap
+module FormtasticZurbFoundation
   module Inputs
     class NumberInput < Formtastic::Inputs::NumberInput
       include Base
